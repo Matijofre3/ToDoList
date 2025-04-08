@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 100vh;
+  }
+  
+  .body {
+    display: flex;
+    flex: 1;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background-color: #1e1e1e;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .newSprintBtn {
+    background-color: #aa30ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .backlog {
+    width: 80%;
+    padding: 20px;
+    background-color: #111;
+    color: white;
+  }
+  
+  .titleSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .newTaskBtn {
+    background-color: #aa30ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

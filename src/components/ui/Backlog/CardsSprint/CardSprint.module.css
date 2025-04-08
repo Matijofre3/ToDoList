@@ -1,0 +1,45 @@
+.containerCard {
+    background-color: var(--card-color);
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--card-letter-color);
+    margin: 5px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.818);
+}
+.containerDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .3rem;
+    width: 100%;
+}
+.actionCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .3rem;
+}
+
+.buttonCardSprintDelete{
+border: none;
+    background-color: transparent;
+    color: var(--card-letter-color);
+    font-size: 25px;
+}
+
+
+.buttonCardSprintEdit{
+border: none;
+    background-color: transparent;
+    color: var(--card-letter-color);
+    font-size: 25px;
+
+}
+
+
+
+
+
